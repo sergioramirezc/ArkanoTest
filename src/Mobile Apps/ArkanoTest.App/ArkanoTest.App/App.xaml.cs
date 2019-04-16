@@ -34,7 +34,7 @@ namespace ArkanoTest.App
         {
             base.OnStart();
 
-            AppCenter.Start("android=c1814787-b3a3-45a6-a413-db78ad6213df;" +
+            AppCenter.Start("android=30eeeca5-2acc-4ffd-b0e6-4bb51e89b594;" +
                   "uwp={Your UWP App secret here};" +
                   "ios={Your iOS App secret here}",
                   typeof(Crashes),typeof(Analytics));
